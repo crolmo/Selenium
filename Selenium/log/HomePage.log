@@ -1,0 +1,304 @@
+2020-10-24 01:04:16,980 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 01:04:21,608 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 01:04:40,986 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 01:04:41,313 - Base.Baselog - MainProcess - 19 - ERROR - Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:04:41,319 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    self.driver.driver_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 90, in get_driver_info
+    driver.get(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:04:41,354 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:04:41,355 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 56, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:04:41,401 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:04:41,403 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:04:41,496 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 01:19:59,773 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 01:20:00,127 - Base.Baselog - MainProcess - 19 - ERROR - Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:00,132 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    self.driver.driver_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 90, in get_driver_info
+    driver.get(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:00,163 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:00,165 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 56, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:00,198 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:00,200 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:00,306 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 01:20:34,323 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 01:20:34,652 - Base.Baselog - MainProcess - 19 - ERROR - Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:34,657 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    self.driver.driver_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 90, in get_driver_info
+    driver.get(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:34,691 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:34,692 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 56, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:34,731 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 01:20:34,734 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 01:20:34,866 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 10:56:41,945 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 10:56:42,299 - Base.Baselog - MainProcess - 19 - ERROR - Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 10:56:42,306 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    self.driver.driver_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 90, in get_driver_info
+    driver.get(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 10:56:42,331 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 10:56:42,332 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 56, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"学习深度学习 →"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 10:56:42,353 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-24 10:56:42,354 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\HomePage\HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\crols\crols\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\crols\crols\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\crols\crols\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span[class="sub-text"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-24 10:56:42,426 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 14:53:04,671 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 14:53:07,086 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 15:50:34,640 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 15:50:36,447 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 15:51:04,154 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 15:51:05,930 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 16:06:31,571 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 16:06:33,429 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 16:07:20,743 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 16:07:24,450 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 16:08:25,842 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 16:08:29,201 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-24 16:15:40,909 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-24 16:15:42,554 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage

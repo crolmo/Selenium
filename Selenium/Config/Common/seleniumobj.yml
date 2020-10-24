@@ -1,0 +1,81 @@
+mathod:
+  - driver
+  - mouse
+  - element
+
+find_type:
+  - id
+  - ids
+  - xpath
+  - xpaths
+  - link_text
+  - partial_link_text
+  - partial_link_texts
+  - name
+  - names
+  - tag_name
+  - tag_names
+  - class_name
+  - class_names
+  - css_selector
+  - css_selectors
+
+
+
+operate_type:
+  ## mouse operate
+  - move_to_element
+  - perform
+  - reset_actions
+  - click
+  - click_and_hold
+  - context_click
+  - double_click
+  - drag_and_drop
+  - drag_and_drop_by_offset
+  - key_down
+  - key_up
+  - move_by_offset
+  - move_to_element_with_offset
+  - pause
+  - release
+  - send_keys
+  - send_keys_to_element
+  ## driver operate
+  - open
+  - maximize_window
+  - close
+  - refresh
+  - back
+  - forward
+  - title
+  - current_url
+  - page_source
+  - current_window_handle
+  - window_handles
+  - fullscreen_window
+  - minimize_window
+  - switch_to_active_element
+  - switch_to_window
+  - switch_to_frame
+  - switch_to_default_content
+  - switch_to_alert
+  - get_cookies
+  - get_cookie
+  - delete_cookie
+  - delete_all_cookies
+  - add_cookie
+  - implicitly_wait
+  - set_script_timeout
+  - set_page_load_timeout
+  - get_screenshot_as_file
+  - desired_capabilities
+  - save_screenshot
+  - get_screenshot_as_png
+  - get_screenshot_as_base64
+  - set_window_size
+  - get_window_size
+  - set_window_position
+  - get_window_position
+  - get_window_rect
+  - get_log
