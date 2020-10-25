@@ -9,13 +9,7 @@ from TestCase.HomePagetest import HomePagetest
 def runnerCaseApp():
     suite = unittest.TestSuite()
     suite.addTest(SeleniumRunner.Runseleiumcase(HomePagetest))
-
-    fp = open("Report/result.html", "wb")
-    runner = HTMLTestRunner(stream=fp,
-                title = "测试报告",
-                description = "测试用例")
-    runner.run(suite)
-    fp.close()
+    SeleniumRunner.ReportRunner(suite,path="Report/result.html",title="测试报告",description="测试Home页面")
 
 
 if __name__ == '__main__':

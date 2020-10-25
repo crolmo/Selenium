@@ -1,4 +1,5 @@
 import unittest
+from Common.HTMLTestRunner import HTMLTestRunner
 
 
 class SeleniumRunner(unittest.TestCase):
@@ -14,3 +15,12 @@ class SeleniumRunner(unittest.TestCase):
         for name in testnames:
             suite.addTest(testcase_class(name, param=param))
         return suite
+
+    @staticmethod
+    def ReportRunner(suite,path,title,description):
+        fp = open(path, "wb")
+        runner = HTMLTestRunner(stream=fp,
+                                title=title,
+                                description=description)
+        runner.run(suite)
+        fp.close()

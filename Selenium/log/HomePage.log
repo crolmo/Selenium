@@ -302,3 +302,11 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 2020-10-24 16:08:29,201 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
 2020-10-24 16:15:40,909 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
 2020-10-24 16:15:42,554 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-25 11:43:01,311 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-25 11:43:03,715 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-25 11:50:26,477 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-25 11:50:28,394 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-25 11:53:03,874 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-25 11:53:07,686 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-25 11:53:20,395 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-25 11:53:23,164 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
