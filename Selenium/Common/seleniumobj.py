@@ -92,6 +92,8 @@ def get_driver_info(driver,operate):
         driver.maximize_window()
     elif operate_type == "close":
         driver.close()
+    elif operate_type == "quit":
+        driver.quit()
     elif operate_type == "refresh":
         driver.refresh()
     elif operate_type == "back":
@@ -153,7 +155,7 @@ def get_driver_info(driver,operate):
     elif operate_type == "get_window_size":
         info = driver.get_window_size(operate_info)
     elif operate_type == "set_window_position":
-        info = driver.set_window_position(operate_info["width"],operate_info["height"],operate_info["windowHandle"])
+        info = driver.set_window_position(operate_info["x"],operate_info["y"],operate_info["windowHandle"])
     elif operate_type == "get_window_position":
         info = driver.get_window_position(operate_info)
     elif operate_type == "get_window_rect":

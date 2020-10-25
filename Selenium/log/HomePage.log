@@ -310,3 +310,43 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 2020-10-25 11:53:07,686 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
 2020-10-25 11:53:20,395 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
 2020-10-25 11:53:23,164 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-25 14:36:48,521 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：HomePage
+2020-10-25 14:36:51,267 - Base.Baselog - MainProcess - 19 - ERROR - 'NoneType' object has no attribute 'click'
+2020-10-25 14:36:51,290 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/HomePage/HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver,operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 77, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+2020-10-25 14:36:51,395 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-25 14:36:51,413 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/HomePage/HomePage.py", line 18, in run
+    self.operate(operate_info)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    self.driver.driver_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver,operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 94, in get_driver_info
+    driver.close()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 688, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-25 14:36:51,414 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
