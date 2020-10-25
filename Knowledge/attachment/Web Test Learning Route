@@ -6,11 +6,33 @@
         Selenium3+Python3自动化测试项目实践
 
 2.性能测试
-工具：loadrunner
-学习资源：
+工具：loadrunner，locust
+学习资源：http://www.testclass.net/locust
+        https://zhuanlan.zhihu.com/p/131325579
 推荐书籍：
 
 3.单元测试
 工具：unittest
 学习资源：https://docs.python.org/zh-cn/3/library/unittest.html
+        https://blog.csdn.net/weixin_42139375/article/details/83216648
+
+4.安全测试
+工具：BurpSuite
+学习资源：https://t0data.gitbooks.io/burpsuite/content/
+
+5.APP自动化测试
+工具：Appium
+学习资源：http://www.testclass.net/appium
+        https://blog.csdn.net/pengjiangchun/article/details/105806323
+
+6.接口测试
+工具：Postman
+学习资源：https://www.cnblogs.com/cocomoly/p/11461520.html
+        https://www.cnblogs.com/cocomoly/p/11725219.html
+        https://blog.csdn.net/pengjiangchun/article/details/106575718
+
+7.持续集成
+工具：gitlab，Jenkins
+学习资源：http://www.testclass.net/jenkins
+        https://github.com/apachecn/gitlab-doc-zh
 
