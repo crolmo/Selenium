@@ -3,7 +3,7 @@ import os
 from Common.utils import listdir,abs_path,load_yaml
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.support.select import Select
 
 def get_driver_path():
     drvier_path = abs_path("../Data/driver/")
@@ -33,6 +33,24 @@ def operate_by(elements,operate_type,operate_info):
         info = elements.clear(operate_info)
     elif operate_type == "get_property":
         info = elements.get_property(operate_info)
+    elif operate_type == "select_by_index":
+        info = Select(elements).select_by_index(operate_info)
+    elif operate_info == "select_by_value":
+        info = Select(elements).select_by_value(operate_info)
+    elif operate_info == "select_by_visible_text":
+        info = Select(elements).select_by_visible_text(operate_info)
+    elif operate_info == "all_selected_options":
+        info = Select(elements).all_selected_options
+    elif operate_info == "deselect_all":
+        info = Select(elements).deselect_all()
+    elif operate_info == "deselect_by_index":
+        info = Select(elements).deselect_by_index(operate_info)
+    elif operate_info == "deselect_by_value":
+        info = Select(elements).deselect_by_value(operate_info)
+    elif operate_info == "deselect_by_visible_text":
+        info = Select(elements).deselect_by_visible_text(operate_info)
+    elif operate_info == "first_selected_option":
+        info = Select(elements).first_selected_option
     if info:
         return info
 
