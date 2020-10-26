@@ -1,6 +1,6 @@
 import unittest
 from Base.BaseRunner import SeleniumRunner
-from TestCase.MusicHome import MusicHometest
+from TestCase.MusicHometest import MusicHometest
 
 
 def runnerCaseApp():

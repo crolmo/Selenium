@@ -377,3 +377,1203 @@ from unknown error: web view not found
 2020-10-26 17:31:00,936 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
 2020-10-26 17:31:44,684 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
 2020-10-26 17:31:46,125 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:33:24,982 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:33:26,456 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:43:11,013 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:43:12,703 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:45:05,708 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:45:07,575 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:47:32,372 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:47:36,998 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:48:01,805 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:48:18,543 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:50:34,188 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:50:51,840 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:51:17,695 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:51:46,649 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 17:51:46,659 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,operate_type="click",operate_info="")
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 17:51:47,692 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:52:34,539 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:53:06,586 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 17:53:06,590 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,operate_type="click",operate_info="")
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 17:53:07,636 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:53:28,960 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:54:01,329 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 17:54:01,331 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,operate_type="click",operate_info="")
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 17:54:02,363 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:09:57,878 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:10:31,283 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:10:31,285 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,doperate["operate_type"],doperate["operate_info"])
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:10:33,321 - Base.Baselog - MainProcess - 19 - ERROR - 'list' object has no attribute 'click'
+2020-10-26 18:10:33,323 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 25, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'list' object has no attribute 'click'
+
+2020-10-26 18:10:34,337 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': None, 'find_type': None, 'operate_type': 'quit', 'operate_info': None, 'mathod': 'driver'}
+2020-10-26 18:10:34,338 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:12:35,133 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:13:07,386 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:13:07,389 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,doperate["operate_type"],doperate["operate_info"])
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:13:12,550 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:13:12,566 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 21, in operate
+    info = self.driver.driver_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 138, in get_driver_info
+    info = driver.switch_to_window(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 782, in switch_to_window
+    self._switch_to.window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 112, in window
+    self._w3c_window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 134, in _w3c_window
+    raise e
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 123, in _w3c_window
+    send_handle(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 119, in send_handle
+    self._driver.execute(Command.SWITCH_TO_WINDOW, {'handle': h})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:13:13,597 - Base.Baselog - MainProcess - 19 - ERROR - 'list' object has no attribute 'click'
+2020-10-26 18:13:13,597 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 25, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'list' object has no attribute 'click'
+
+2020-10-26 18:13:14,606 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': None, 'find_type': None, 'operate_type': 'quit', 'operate_info': None, 'mathod': 'driver'}
+2020-10-26 18:13:14,606 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:14:06,766 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:14:38,958 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:14:38,962 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,doperate["operate_type"],doperate["operate_info"])
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:14:44,113 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:14:44,116 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 21, in operate
+    info = self.driver.driver_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 138, in get_driver_info
+    info = driver.switch_to_window(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 782, in switch_to_window
+    self._switch_to.window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 112, in window
+    self._w3c_window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 134, in _w3c_window
+    raise e
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 123, in _w3c_window
+    send_handle(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 119, in send_handle
+    self._driver.execute(Command.SWITCH_TO_WINDOW, {'handle': h})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:14:45,149 - Base.Baselog - MainProcess - 19 - ERROR - 'list' object has no attribute 'click'
+2020-10-26 18:14:45,150 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 25, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'list' object has no attribute 'click'
+
+2020-10-26 18:14:46,163 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': None, 'find_type': None, 'operate_type': 'quit', 'operate_info': None, 'mathod': 'driver'}
+2020-10-26 18:14:46,163 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:22:02,128 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:22:05,599 - Base.Baselog - MainProcess - 19 - ERROR - 'list' object has no attribute 'click'
+2020-10-26 18:22:05,601 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'list' object has no attribute 'click'
+
+2020-10-26 18:22:35,283 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:22:35,287 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 24, in run
+    operate_by(element,doperate["operate_type"],doperate["operate_info"])
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:22:40,444 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:22:40,446 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 20, in operate
+    info = self.driver.driver_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 18, in driver_operate
+    element_info = get_driver_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 138, in get_driver_info
+    info = driver.switch_to_window(operate_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 782, in switch_to_window
+    self._switch_to.window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 112, in window
+    self._w3c_window(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 134, in _w3c_window
+    raise e
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 123, in _w3c_window
+    send_handle(window_name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 119, in send_handle
+    self._driver.execute(Command.SWITCH_TO_WINDOW, {'handle': h})
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:22:41,452 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': None, 'find_type': None, 'operate_type': 'quit', 'operate_info': None, 'mathod': 'driver'}
+2020-10-26 18:22:41,452 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:24:07,001 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:24:10,381 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"登录"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:24:10,383 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"登录"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:24:10,383 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:24:53,959 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:25:00,384 - Base.Baselog - MainProcess - 19 - ERROR - 'list' object has no attribute 'click'
+2020-10-26 18:25:00,385 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+AttributeError: 'list' object has no attribute 'click'
+
+2020-10-26 18:25:01,470 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:27:46,522 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:27:54,471 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:29:51,833 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:29:59,791 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"link text","selector":"选择其他方式登录"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:29:59,795 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 74, in get_element_info
+    elements = driver.find_element_by_link_text(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"选择其他方式登录"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:30:00,883 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:36:50,845 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:36:59,659 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:40:44,928 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:40:54,719 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:40:54,723 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:40:55,750 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:40:55,753 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:40:56,784 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:40:56,785 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:40:56,785 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:43:59,257 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:44:10,155 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:44:10,157 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:44:11,186 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:44:11,189 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:44:12,210 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:44:12,211 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:44:12,211 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:45:26,968 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:45:34,650 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:45:34,653 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:45:37,779 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:45:37,779 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:45:38,794 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:45:38,795 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:45:39,812 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:45:39,813 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:45:39,813 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:46:26,547 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:46:34,090 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:46:34,093 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:46:37,203 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:46:37,204 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:46:38,239 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:46:38,240 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:46:39,256 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:46:39,258 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:46:39,258 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:47:04,134 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:47:12,934 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:47:12,937 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:47:15,011 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:47:15,011 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:47:16,044 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:47:16,046 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:47:17,072 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:47:17,073 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:47:17,073 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:48:02,323 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:48:10,978 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:48:10,981 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"input>label[for="j-official-terms"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:48:13,043 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:48:13,045 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:48:14,074 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:48:14,075 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>input[class="j-pwd u-txt"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:48:15,091 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:48:15,092 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div>a[class="j-primary u-btn2 u-btn2-2"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:48:15,092 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:50:40,752 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:50:51,483 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:50:51,485 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:50:53,617 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:51:14,884 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:51:38,388 - Base.Baselog - MainProcess - 19 - ERROR - Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:51:38,391 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:51:52,419 - Base.Baselog - MainProcess - 19 - ERROR - Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:51:52,421 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:52:06,461 - Base.Baselog - MainProcess - 19 - ERROR - Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:52:06,463 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:52:08,464 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:52:08,464 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:52:22,508 - Base.Baselog - MainProcess - 19 - ERROR - Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:52:22,510 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:52:36,536 - Base.Baselog - MainProcess - 19 - ERROR - Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 18:52:36,541 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 18:52:36,542 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:53:29,972 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:53:49,952 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:53:49,954 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:53:58,112 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:55:17,710 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:55:37,464 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:55:37,466 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:55:45,624 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:56:50,783 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:57:10,722 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:57:10,723 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:57:18,927 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 18:59:14,245 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 18:59:34,128 - Base.Baselog - MainProcess - 19 - ERROR - 'mathod'
+2020-10-26 18:59:34,132 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 15, in run
+    check_info = check_keys(doperate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 407, in check_keys
+    mathod = operate["mathod"]
+KeyError: 'mathod'
+
+2020-10-26 18:59:42,299 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:01:18,406 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:01:48,236 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":".j-phone txt u-txt"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:01:48,239 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 88, in get_element_info
+    elements = driver.find_element_by_class_name(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".j-phone txt u-txt"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:01:56,410 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:02:37,248 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:03:05,225 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:06:54,097 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:07:38,306 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:07:38,308 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:07:38,309 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:09:21,608 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:10:01,927 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:10:01,933 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:10:11,579 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:10:18,338 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:10:58,331 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:10:58,334 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 92, in get_element_info
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:11:12,417 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:11:12,418 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:11:12,418 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 19:12:25,381 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 19:13:05,414 - Base.Baselog - MainProcess - 19 - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:13:05,422 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 22, in operate
+    info = self.driver.mouse_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 22, in mouse_operate
+    element_info = get_mouse_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 229, in get_mouse_info
+    element = get_element(driver,operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 219, in get_element
+    elements = driver.find_element_by_css_selector(element_info)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"img>a[href="/user/home?id=3950240774"]"}
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:13:19,491 - Base.Baselog - MainProcess - 19 - ERROR - Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-26 19:13:19,495 - Base.Baselog - MainProcess - 19 - ERROR - Traceback (most recent call last):
+  File "D:/GitProject/Selenium/Selenium/PageObjects/Muisc/MusicHome.py", line 21, in run
+    info = self.operate(doperate)
+  File "D:\GitProject\Selenium\Selenium\PageObjects\pageObjects.py", line 24, in operate
+    info = self.driver.element_operate(operate)
+  File "D:\GitProject\Selenium\Selenium\Base\BaseEelement.py", line 14, in element_operate
+    element_info = get_element_info(self.driver, operate)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 95, in get_element_info
+    info = operate_by(elements, operate_type, operate_info)
+  File "D:\GitProject\Selenium\Selenium\Common\seleniumobj.py", line 25, in operate_by
+    info = elements.click()
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Crolmo\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+
+
+2020-10-26 19:13:19,496 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome

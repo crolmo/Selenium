@@ -229,7 +229,7 @@ def get_mouse_info(driver,operate):
     element = get_element(driver,operate)
     info = ""
     if operate_type == "move_to_element":
-        info = ActionChains(driver).move_to_element(element)
+        info = ActionChains(driver).move_to_element(element).perform()
     elif operate_type == "perform":
         info = ActionChains(driver).perform()
     elif operate_type == "reset_actions":
