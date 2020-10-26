@@ -412,7 +412,7 @@ def check_keys(operate):
     if mathod not in seleniumobj["mathod"]:
         info.append("Error:Method is illegal: {}".format(operate))
     else:
-        if mathod == "element":
+        if mathod == "element" or mathod == "get_element":
             if find_type not in seleniumobj["find_type"]:
                 info.append("Error:find_type is illegal: {}".format(operate))
         else:

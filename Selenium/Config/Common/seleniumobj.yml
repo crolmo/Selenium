@@ -2,6 +2,7 @@ mathod:
   - driver
   - mouse
   - element
+  - get_element
 
 find_type:
   - id

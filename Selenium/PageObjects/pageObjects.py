@@ -16,10 +16,14 @@ class Page(object):
         self.logger = SeleniumLog(log_path)
 
     def operate(self,operate):
+        info = ""
         if operate["mathod"] == "driver":
-            self.driver.driver_operate(operate)
+            info = self.driver.driver_operate(operate)
         elif operate["mathod"] == "mouse":
-            self.driver.mouse_operate(operate)
+            info = self.driver.mouse_operate(operate)
         elif operate["mathod"] == "element":
-            self.driver.element_operate(operate)
+            info = self.driver.element_operate(operate)
+        elif operate["mathod"] == "get_element":
+            info = self.driver.get_element_info(operate)
+        return info
 

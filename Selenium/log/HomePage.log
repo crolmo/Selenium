@@ -350,3 +350,30 @@ from unknown error: web view not found
 
 
 2020-10-25 14:36:51,414 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:HomePage
+2020-10-26 17:18:51,441 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:18:53,061 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:23:32,020 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:23:33,313 - Base.Baselog - MainProcess - 19 - ERROR - Error:Method is illegal: {'element_info': 'a[data-module="discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:23:33,313 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:25:15,480 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:25:17,094 - Base.Baselog - MainProcess - 19 - ERROR - Error:Method is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:25:17,094 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:25:50,958 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:25:52,359 - Base.Baselog - MainProcess - 19 - ERROR - Error:Method is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:25:52,422 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:27:23,959 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:27:25,238 - Base.Baselog - MainProcess - 19 - ERROR - Error:Method is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:27:25,308 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:29:07,948 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:29:09,331 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:29:09,397 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:29:28,974 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:29:31,238 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:29:31,296 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:29:54,604 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:29:55,807 - Base.Baselog - MainProcess - 19 - ERROR - Error:operate_type is illegal: {'element_info': 'a[href*="/discover"]', 'find_type': 'css_selectors', 'operate_type': None, 'operate_info': None, 'mathod': 'get_element'}
+2020-10-26 17:29:55,867 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:30:59,318 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:31:00,936 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
+2020-10-26 17:31:44,684 - Base.Baselog - MainProcess - 23 - INFO - 开始执行测试：MusicHome
+2020-10-26 17:31:46,125 - Base.Baselog - MainProcess - 23 - INFO - 测试结束:MusicHome
