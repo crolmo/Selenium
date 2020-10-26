@@ -2,7 +2,6 @@ import os
 from Common.utils import load_yaml,abs_path
 from Base.Baselog import SeleniumLog
 from Base.BaseEelement import Element
-from Common.seleniumobj import check_keys
 
 
 class Page(object):
