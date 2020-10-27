@@ -39,7 +39,7 @@ testcase:
   - element_info: div>input[class="j-phone txt u-txt"]
     find_type: css_selector
     operate_type: send_keys
-    operate_info: 17611226355
+    operate_info: 手机号
     mathod: element
   - element_info:
     find_type:
@@ -49,7 +49,7 @@ testcase:
   - element_info: div>input[class="j-pwd u-txt"]
     find_type: css_selector
     operate_type: send_keys
-    operate_info: crolmo@123
+    operate_info: 密码
     mathod: element
   - element_info:
     find_type:
