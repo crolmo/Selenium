@@ -7,11 +7,19 @@ setup_logging("INFO", None)
 
 class User(HttpUser):
     wait_time = between(1, 3)
-    host = "https://docs.locust.io"
+    host = "https://music.163.com"
 
-    @task
-    def my_task(self):
+    @task(1)
+    def Music_home(self):
         self.client.get("/")
+
+    @task(2)
+    def Music_Leaderboard(self):
+        self.client.get("/#/discover/toplist")
+
+    @task(1)
+    def Music_MyMusic(self):
+        self.client.get("/#/my/")
 
 
 if __name__ == '__main__':
